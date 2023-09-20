@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Time: 8:38
  */
 public class Test {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int x = scanner.nextInt();
@@ -16,7 +16,7 @@ public class Test {
             Sub sub = new Sub(x, y);
             System.out.println(sub.sum());
         }
-    }
+    }*/
 
 
 
@@ -73,7 +73,7 @@ public class Test {
         System.out.print(obj.getClass().getName());
     }*/
 }
-class Base {
+/*class Base {
     private int x;
     private int y;
     public Base(int x, int y) {
@@ -99,7 +99,7 @@ class Sub extends Base {
         return super.getX()*10 ;
     }
     //write your code here......
-}
+}*/
 
 
 

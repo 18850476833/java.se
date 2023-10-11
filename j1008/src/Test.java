@@ -45,10 +45,6 @@ class Solution {
         for(int i =0 ;i < num.length ;i++){
             src[i] = num[i];
         }
-        for(int i = 0; i < k; i++){
-            num[i] = src[len];
-            len++;
-        }
         int i = 0;
         for(int j = k; j < num.length; j++){
             num[j] = src[i];

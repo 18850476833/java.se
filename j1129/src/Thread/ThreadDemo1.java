@@ -11,12 +11,16 @@ package Thread;
 class MyThread extends Thread{
     @Override
     public void run() {
-        System.out.println("hello world");
+        //在这个代码中,如果想获取线程引用,用this即可
+        //System.out.println("hello world");
+        System.out.println(this.getId() + " ," + this.getName());
     }
 }
 public class ThreadDemo1 {
     public static void main(String[] args) {
-        Thread t = new MyThread();
-        t.start();
+        Thread t1 = new MyThread();
+        Thread t2 = new MyThread();
+        t1.start();
+        t2.start();
     }
 }

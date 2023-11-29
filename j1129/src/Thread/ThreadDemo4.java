@@ -13,23 +13,23 @@ public class ThreadDemo4 {
         Thread t = new Thread(new Runnable() {
             @Override
             public void run() {
-                /*while(true){
+                while(true){
                     System.out.println("xiao");
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
-                }*/
-                System.out.println("1");
+                }
+                //System.out.println("1");
             }
         });
         t.start();
-        /*while (true){
+        while (true){
             System.out.println("dong");
             Thread.sleep(1000);
-        }*/
-        System.out.println("2");
+        }
+        //System.out.println("2");
     }
 }
 

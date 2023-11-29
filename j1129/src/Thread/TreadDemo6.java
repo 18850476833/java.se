@@ -40,4 +40,6 @@ public class TreadDemo6 {
         System.out.println("result = " + (result1 + result2));
         System.out.println(end - beg);
     }
+
+    
 }

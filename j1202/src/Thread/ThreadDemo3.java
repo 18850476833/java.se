@@ -56,5 +56,8 @@ public class ThreadDemo3 {
         a.start();
         b.start();
         c.start();
+
+
+        
     }
 }

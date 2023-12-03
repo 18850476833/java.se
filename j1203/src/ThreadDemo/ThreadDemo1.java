@@ -12,8 +12,14 @@ class Singleton{
     public static Singleton getInstance(){//2
         return instance;
     }
-    private Singleton(){}//3
+    private Singleton(){
+
+    }//3
 }
+
 public class ThreadDemo1 {
+
+
+    
 
 }

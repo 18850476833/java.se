@@ -55,7 +55,9 @@ package ThreadDemo;
 
 
 //加上volatile
+
 class SingletonLazy{
+
     //引用指向当前唯一实例,先初始化为null,而非立即创建
     private volatile static SingletonLazy instance = null;
     private static Object object = new Object();
@@ -64,6 +66,7 @@ class SingletonLazy{
             synchronized (object){
                 if (instance == null){
                     instance = new SingletonLazy();
+                    
                 }
             }
         }
@@ -76,4 +79,7 @@ public class ThreadDemo2 {
         SingletonLazy s2 = SingletonLazy.getInstance();
         System.out.println(s1 == s2);
     }
+
+
+
 }

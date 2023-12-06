@@ -19,9 +19,6 @@ public class Test {
     }
 
 
-
-
-
     public static void main5(String[] args) {
         int[]array6 = {7,2,3,4,5};
         int[]array7 =Arrays.copyOf(array6,array6.length);
@@ -48,8 +45,6 @@ public class Test {
     }
 
 
-
-
     public static void main3(String[] args) {
         //第一种
         int[] array  = {1,2,3,4,5};
@@ -70,8 +65,6 @@ public class Test {
     }
 
 
-
-
     public static int sum(int a, int b){
         return a+b;
     }
@@ -87,8 +80,7 @@ public class Test {
         int y = 20;
         System.out.println(sum(x, y));
     }
-
-
+    
 
     public static void main1(String[] args) {
         Scanner scanner = new Scanner(System.in);

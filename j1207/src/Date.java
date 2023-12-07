@@ -14,7 +14,6 @@ public class Date {
         this.month = m;
         this.day = d;
     }
-
     public static void main(String[] args) {
         Date date = new Date();
         date.setDate(1999,1,1);

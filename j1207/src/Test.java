@@ -52,7 +52,6 @@ public class Test {
     public int age;
     public static String classRoom;
     //两个共有一个成员变量,可以加一个static,设为静态变量
-
     public static void func(){
         System.out.println("静态");
         //System.out.println(this.name);
@@ -63,24 +62,14 @@ public class Test {
     public String getName(){
         return this.name;
     }
-
     public static void main(String[] args) {
         Test.func();
     }
-
-
-
-
-
-
     public static void main3(String[] args) {
         Student student = new Student();
         System.out.println(student.name);
         System.out.println(student.age);
     }
-
-
-
 
 
 

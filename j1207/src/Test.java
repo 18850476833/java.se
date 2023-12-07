@@ -22,9 +22,6 @@ class PetDog{
 
 }
 
-
-
-
 class Student{
     public String name;
     public int age;
@@ -41,10 +38,6 @@ class Student{
         this.age = age;
     }
 }
-
-
-
-
 
 
 public class Test {
@@ -70,9 +63,6 @@ public class Test {
         System.out.println(student.name);
         System.out.println(student.age);
     }
-
-
-
 
 
     public static void main1(String[] args) {

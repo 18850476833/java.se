@@ -24,12 +24,13 @@ public class Test {
         }catch(Exception e){
             System.out.println("密码错误");
         }
-
-
-
+        
         int a  =10;
         if( a == 10){
             throw new NullPointerException("哈哈");
         }
+
+
+
     }
 }

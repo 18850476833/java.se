@@ -43,7 +43,6 @@ public class MySingleList implements IList{
             this.head = node;
         }
     }
-
     @Override
     public void addLast(int data) {
         ListNode node = new ListNode(data);
@@ -57,9 +56,10 @@ public class MySingleList implements IList{
             cur.next = node;
         }
     }
-
     @Override
     public void addIndex(int index, int data) {
+
+
         
     }
 

@@ -38,7 +38,7 @@ public class Test {
         myArrayList.display();
         System.out.println("============================");
 
-        System.out.println(myArrayList.indexof(3));
+        System.out.println(myArrayList.indexof(2));
 
         /* myArrayList.clear();
         myArrayList.display();*/

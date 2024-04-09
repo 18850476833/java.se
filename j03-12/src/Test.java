@@ -11,7 +11,7 @@ import java.util.List;
  * Time: 14:28
  */
 public class Test {
-    public List<List<Integer>> generate(int numRows){
+    public static List<List<Integer>> generate(int numRows){
         List<List<Integer>> ret  = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
         list.add(1);
@@ -31,7 +31,7 @@ public class Test {
         return ret;
     }
     public static void main(String[] args) {
-        MyArrayList myArrayList = new MyArrayList();
+       /* MyArrayList myArrayList = new MyArrayList();
         myArrayList.add(1);//0
         myArrayList.add(2);//1
         myArrayList.add(199);//2
@@ -39,8 +39,10 @@ public class Test {
         System.out.println("============================");
 
         System.out.println(myArrayList.indexof(2));
-
+*/
         /* myArrayList.clear();
         myArrayList.display();*/
+        List list = generate(5);
+        System.out.println(list);
     }
 }

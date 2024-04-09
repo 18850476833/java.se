@@ -63,6 +63,7 @@ public class MyArrayList implements MyList{
     }
     //查找元素前,先判断一下,数组是不是空的
     public boolean checkusedSize(){
+
         return usedSize == 0;
     }
     @Override
